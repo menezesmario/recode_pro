@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coffee Shop | Blog</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <div class="header">
+    <div class="image-logo"><a href="#default" class="logo"
+      ><img src="./img/coffeeshop-logo.png" alt=""
+      /></a>
+    </div>
+    <div class="top-nav">
+      <a class="active" href="./quem-somos.html">Quem Somos</a>
+      
+      <a href="./index.html">Loja</a>
+      
+      <a href="./blog.html">Blog</a>
+      <a href="./contato.html">Contato</a>
+    </div>
+  </div>
+  <div class="product-container">
+    <div class="left-column"></div>
+    <div class="product-column">
+    <div class="product-image"><img src="./img/cafe-do-parana.jpg" alt="">  
+    </div>
+    <div class="product-info">
+      <h1>Café do Paraná</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur repellat nobis at beatae esse placeat culpa mollitia! Explicabo ad nisi consequatur, voluptas odit quibusdam ipsam nesciunt vero adipisci laborum ea!</p>
+      <ul>
+        <li>torra clara</li>
+        <li>levemente doce</li>
+        <li>acidez média</li>
+      </ul>
+      <form action="comprar">
+        <div class="size">
+      <input type="radio" id="pct250" name="size" value="pct250">
+      <label for="pct250">250g</label><br>
+      <input type="radio" id="pct500" name="size" value="pct500">
+      <label for="pct500">500g</label><br><br>
+      <price>18,90</price>
+    </div>
+      <br><br>
+      <div class="cep">
+      <label class="cep" for="numerocep"> Digite o CEP</label><br>
+      <input class="cep" type="text" id="numerocep" name="cep"><br>
+      <button class="product-button">Calcular Frete</button><br><br>
+      Total: <price>R$ 33,80</price>
+  </div>
+
+      <button class="product-button">Comprar</button><br><br>
+
+    </form>
+    </div>
+    </div>
+
+
+    <div class="right-column"></div>
+  </div>
+  
+  <div class="footer">© Cafés do Brasil</footer>
+  
+</body>
+</html>
