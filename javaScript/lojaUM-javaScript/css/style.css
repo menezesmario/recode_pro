@@ -12,7 +12,7 @@ body {
 
 .header a.logo img {
   width: 200px;
-  background-color: transparent);
+  background-color: transparent;
 }
 
 .header a {
@@ -95,16 +95,18 @@ float: left;
   margin: 5%;
 }
 
+.shop-column h1 {
+  font-size: 18px;
+}
 
 .shop-column img {
   text-align: center;
-  width: 200px; 
+  width: 200px;
   height: 200px; 
   object-fit: cover; 
-  object-position: 
-  center;
+  object-position: center;
   display: block;
-}
+} 
 
 .prod-resume {
   margin: 0;

@@ -20,5 +20,8 @@ let exibir_todos = () => {
 
 let destaque = (imagem) => {
   console.log(imagem);
+  if (imagem.width == 400) {
+    imagem.width = 200;
+  }
   imagem.width = 400;
 };
