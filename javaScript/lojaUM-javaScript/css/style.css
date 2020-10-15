@@ -58,6 +58,23 @@ float: left;
   height: 2px;
 }
 
+.categorias {
+  height: 100px;
+  
+}
+
+.lista-categorias {
+
+  text-align: center;
+  vertical-align: middle;
+}
+
+.categoria {
+  display: inline;
+  padding: 30px;
+  font-size: large;
+  
+}
 
 .products-container {
   text-align: center;
@@ -86,6 +103,7 @@ float: left;
   object-fit: cover; 
   object-position: 
   center;
+  display: block;
 }
 
 .prod-resume {
