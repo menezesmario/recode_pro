@@ -1,0 +1,1 @@
+insert into itensvenda (venda, produto, quantidade) values (1, '003', 5);

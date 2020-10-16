@@ -21,7 +21,7 @@ float: left;
   text-align: center;
   padding: 12px;
   text-decoration: none;
-  font-size: 1.5em;
+  font-size: 18px;
   line-height: 30px;
   border-radius: 4px;
 }
@@ -80,19 +80,22 @@ float: left;
   text-align: center;
   background: rgb(255, 255, 255);
   margin-top: 20px;
-  height: 100px;
+  height: 1000
+  px;
   
 }
 
 .shop-row {
   float: center;
   margin-right: 300px;
+  display: inline-block;
   
 }
 
 .shop-column {
-  float: right;
-  margin: 5%;
+  display: inline;
+  float: center;
+  margin: 100px;
 }
 
 .shop-column h1 {
@@ -105,7 +108,6 @@ float: left;
   height: 200px; 
   object-fit: cover; 
   object-position: center;
-  display: block;
 } 
 
 .prod-resume {
@@ -113,7 +115,7 @@ float: left;
 }
 
 .products-container button {
-  text-align: center;
+  align-content: center;
   background-color: orange;
   width: 200px;
   height: 50px;
@@ -123,6 +125,11 @@ float: left;
   border: none;
   font-size: 18px;
   cursor: pointer;
+}
+
+.products-container a {
+  text-decoration: none;
+  color: gray;
 }
 
 .footer {
