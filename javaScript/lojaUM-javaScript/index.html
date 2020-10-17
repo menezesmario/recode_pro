@@ -9,107 +9,133 @@
   </head>
   <body>
     <div class="header">
-      <div class="image-logo"><a href="index.html" class="logo"
-        ><img src="./img/coffeeshop-logo.png" alt=""
+      <div class="image-logo">
+        <a href="index.html" class="logo"
+          ><img src="./img/coffeeshop-logo.png" alt=""
         /></a>
       </div>
-      <div class="top-nav">
-        <a class="active" href="./quem-somos.html">Quem Somos</a>
-        
-        <a href="./index.html">Loja</a>
-        
+      <nav class="menu">
+        <a href="./quem-somos.html">Quem Somos</a>
+
+        <a class="active" href="./index.html">Loja</a>
+
         <a href="./blog.html">Blog</a>
         <a href="./contato.html">Contato</a>
-      </div>
-      
+      </nav>
     </div>
     <div class="divisor"></div>
-
-    <div class="categorias">
-    <ul class="lista-categorias">
-      <li onclick="exibir_todos()" style="cursor:pointer;" class="categoria">TODOS</li>
-      <li onclick="exibir_categoria('ba')" style="cursor:pointer;" class="categoria">BA</li>
-      <li onclick="exibir_categoria('es')" style="cursor:pointer;"  class="categoria">ES</li>
-      <li onclick="exibir_categoria('mg')" style="cursor:pointer;" class="categoria">MG</li>
-      <li onclick="exibir_categoria('pr')" style="cursor:pointer;" class="categoria">PR</li>
-      <li onclick="exibir_categoria('rj')" style="cursor:pointer;" class="categoria">RJ</li>
-      <li onclick="exibir_categoria('sp')" style="cursor:pointer;" class="categoria">SP</li>
-    </ul>
-    </div>
-
-    <div class="products-container">
-      <div class="shop-row">
-        
-          <div class="shop-column" id="sp">
-          <h1>Café de São Paulo</h1>
-         <img src="./img/cafe-de-sao-paulo.jpg" alt="" width="200px"  onclick="destaque(this)" ></a>
-          <div class="prod-resume">
-            250g: R$18,90
+    <main>
+      <section class="categorias">
+        <ul class="lista-categorias">
+          <li onclick="exibir_todos()" class="categoria">TODOS</li>
+          <li onclick="exibir_categoria('ba')" class="categoria">BA</li>
+          <li onclick="exibir_categoria('es')" class="categoria">ES</li>
+          <li onclick="exibir_categoria('mg')" class="categoria">MG</li>
+          <li onclick="exibir_categoria('pr')" class="categoria">PR</li>
+          <li onclick="exibir_categoria('rj')" class="categoria">RJ</li>
+          <li onclick="exibir_categoria('sp')" class="categoria">SP</li>
+        </ul>
+      </section>
+      <div class="container">
+        <section class="products-container">
+          <div class="product-box" id="sp">
+            <h1>Café de São Paulo</h1>
+            <img
+              src="./img/cafe-de-sao-paulo.jpg"
+              alt=""
+              width="200px"
+              height="200px"
+              onclick="destaque(this)"
+            />
+            <p>250g R$18,90</p>
             <p>500g R$28,90</p>
+            <a href="./cafe-de-sao-paulo.html"
+              ><button style="cursor: " pointer;>Comprar</button></a
+            >
           </div>
-          <a href="./cafe-de-sao-paulo.html"><button style= cursor: pointer;>Comprar</button></a> 
-        </div>
 
-
-        <div class="shop-column" id="mg">
-          <h1>Café de Minas</h1>
-          <img src="./img/cafe-de-minas.jpg" alt="" width="200px" onclick="destaque(this)">
-          <div class="prod-resume">
-            250g: R$18,90
+          <div class="product-box" id="mg">
+            <h1>Café de Minas</h1>
+            <img
+              src="./img/cafe-de-minas.jpg"
+              alt=""
+              width="200px"
+              height="200px"
+              onclick="destaque(this)"
+            />
+            <p>250g R$18,90</p>
             <p>500g R$28,90</p>
+            <a href="./cafe-de-minas.html">
+              <button style="cursor: " pointer;>Comprar</button>
+            </a>
           </div>
-          <a href="./cafe-de-minas.html"><button style= cursor: pointer;>Comprar</button></a>
-        </div>
 
-
-        <div class="shop-column" id="es">
-          <h1>Café do Espírito Santo</h1>
-          <img src="./img/cafe-do-espirito-santo.jpg" alt="" width="200px" onclick="destaque(this)">
-          <div class="prod-resume">
-            250g: R$18,90
+          <div class="product-box" id="es">
+            <h1>Café do Espírito Santo</h1>
+            <img
+              src="./img/cafe-do-espirito-santo.jpg"
+              alt=""
+              width="200px"
+              height="200px"
+              onclick="destaque(this)"
+            />
+            <p>250g R$18,90</p>
             <p>500g R$28,90</p>
+            <a href="./cafe-do-espirito-santo.html">
+              <button style="cursor: " pointer;>Comprar</button>
+            </a>
           </div>
-          <a href="./cafe-do-espirito-santo.html"><button style= cursor: pointer;>Comprar</button></a>
-        </div>
-        
-        
-     <!-- </div>
-      <div class="shop-row"> -->
-        <a href="./cafe-do-rio-de-janeiro.html"><div class="shop-column" id="rj">
-          <h1>Café do Rio de Janeiro</h1>
-          <img src="./img/cafe-do-rio-de-janeiro.jpg" alt="" width="200px" onclick="destaque(this)">
-          <div class="prod-resume">
-            250g: R$18,90
+
+          <div class="product-box" id="rj">
+            <h1>Café do Rio de Janeiro</h1>
+            <img
+              src="./img/cafe-do-rio-de-janeiro.jpg"
+              alt=""
+              width="200px"
+              height="200px"
+              onclick="destaque(this)"
+            />
+            <p>250g R$18,90</p>
             <p>500g R$28,90</p>
+            <a href="./cafe-do-rio-de-janeiro.html">
+              <button style="cursor: " pointer;>Comprar</button>
+            </a>
           </div>
-          <button style= cursor: pointer;>Comprar</button></a>
-        </div>
 
-
-        <div class="shop-column" id="pr">
-          <h1>Café do Paraná</h1>
-          <img src="./img/cafe-do-parana.jpg" alt="" width="200px" onclick="destaque(this)">
-          <div class="prod-resume">
-            250g: R$18,90
+          <div class="product-box" id="pr">
+            <h1>Café do Paraná</h1>
+            <img
+              src="./img/cafe-do-parana.jpg"
+              alt=""
+              width="200px"
+              height="200px"
+              onclick="destaque(this)"
+            />
+            <p>250g R$18,90</p>
             <p>500g R$28,90</p>
+            <a href="./cafe-do-parana.html">
+              <button style="cursor: " pointer;>Comprar</button>
+            </a>
           </div>
-          <a href="./cafe-do-parana.html"><button style= cursor: pointer;>Comprar</button></a>
-        </div>
-        <div class="shop-column" id="ba">
-          <h1>Café da Bahia</h1>
-          <img src="./img/cafe-da-bahia.jpg" alt="" width="200px" onclick="destaque(this)">
-          <div class="prod-resume">
-            250g: R$18,90
+
+          <div class="product-box" id="ba">
+            <h1>Café da Bahia</h1>
+            <img
+              src="./img/cafe-da-bahia.jpg"
+              alt=""
+              width="200px"
+              height="200px"
+              onclick="destaque(this)"
+            />
+            <p>250g R$18,90</p>
             <p>500g R$28,90</p>
+            <a href="cafe-da-bahia.html">
+              <button style="cursor: " pointer;>Comprar</button>
+            </a>
           </div>
-          <a href="cafe-da-bahia.html"><button style= cursor: pointer;>Comprar</button></a>
-        </div>
-        
-        
-      <!-- </div> -->
-
-
-    </div>
-    <div class="footer">© Cafés do Brasil</footer>
+        </section>
+      </div>
+    </main>
+    <div class="footer">© Cafés do Brasil</div>
   </body>
 </html>

@@ -1,5 +1,5 @@
 function exibir_categoria(categoria) {
-  let elementos = document.getElementsByClassName('shop-column');
+  let elementos = document.getElementsByClassName('product-box');
   console.log(elementos);
   for (let i = 0; i < elementos.length; i++) {
     console.log(elementos[i].id);
@@ -12,16 +12,18 @@ function exibir_categoria(categoria) {
 }
 
 let exibir_todos = () => {
-  let elementos = document.getElementsByClassName('shop-column');
+  let elementos = document.getElementsByClassName('product-box');
   for (let i = 0; i < elementos.length; i++) {
     elementos[i].style = 'display: block';
   }
 };
 
 let destaque = (imagem) => {
-  console.log(imagem);
-  if (imagem.width == 400) {
+  if (imagem.width == 400 && imagem.height == 400) {
     imagem.width = 200;
+    imagem.height = 200;
+  } else {
+    imagem.width = 400;
+    imagem.height = 400;
   }
-  imagem.width = 400;
 };
