@@ -100,32 +100,4 @@
 </html>
 
 
-              <!--
-              <?php /*
-                    $servername = "localhost";
-                    $username = "root";
-                    $password = "";
-                    $database = "coffeeshop";
-                
-                    $conn = mysqli_connect($servername, $username, $password, $database);
-
-                    if(isset($_POST['nome']) && isset($_POST['email']) && isset($_POST['mensagem'])){
-                      echo "dados recebidos";
-
-                      $nome = $_POST['nome'];
-                      $email = $_POST['email'];
-                      $mensagem = $_POST['mensagem'];
-
-                      $sql = "insert into mensagens (nome, email, mensagem) values ('$nome', '$email', '$mensagem')";
-
-                      $result = $conn->query($sql);
-
-                      if($result) {
-                        echo "Dados Inseridos com Sucesso!";
-                        header("Refresh:5;contato.php");
-                      }else{
-                        echo "Dados Não Inseridos!";
-                      }
-
-                    }
-                    --> */
+          
